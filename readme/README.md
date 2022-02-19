@@ -4,8 +4,8 @@
     
   
   <p align="center">
-    <img src="./page.gif"
-     width="300" height="300">
+    <img src="ezgif.com-gif-maker.gif"
+     width="1000" height="600">
   </p>
  
 
