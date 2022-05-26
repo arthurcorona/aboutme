@@ -12,7 +12,6 @@ body{
 #head{
     background-color: white;
     padding: 15px;
-    
 }
 
 .points{
@@ -21,6 +20,7 @@ body{
     padding: 5px;
     font-size: 20px;
     color: black;
+    text-decoration: none;  
 }
 
 .points:hover{
@@ -28,8 +28,17 @@ body{
     cursor: pointer;
 }
 
-#skills{
-    
+h2{
+    color: white;
 }
 
+#skills{
+    margin-top: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
 
+li{
+    margin: 10px;
+}
