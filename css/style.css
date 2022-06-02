@@ -89,3 +89,8 @@ li{
     width: 100px;
 
 }
+
+.img-ctt:hover{
+    transform: scale(1.2);
+    
+}
