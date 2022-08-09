@@ -258,6 +258,39 @@ img{
     margin-bottom: var(--mb-0-5);
 }
 
+.skills_name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+/*
+.skills_bar, .skills_percentage {
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills_bar{
+    background-color: var(--first-color-lighter);
+}
+
+.skills_percentage {
+    display: block;
+    background-color: var(--first-color);
+}
+
+.skills_html{
+    width: 90%;
+}
+ resto das skills abaixo*/
+
+.skills_close, .skills_list{
+    height: 0;
+    overflow: hidden;
+}
+
+.skills_open, .skills_list{
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+}
 
 .nav{ 
     max-width: 968px;
