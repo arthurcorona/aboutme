@@ -1,3 +1,4 @@
+//nav menu
 const navMenu = document.getElementById('nav-menu')
 const navToggle = document.getElementById('nav-toggle')
 const navClose = document.getElementById('navClose')
@@ -24,3 +25,23 @@ function linkAction(){
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+                                                                //skills
+
+const skillsContent = document.getElementByClassName('skills_content')
+const skillsHeader = document.querySelector('.skills_header')
+
+function changeSkills() {
+    let itemClass = this.parentNode.className
+
+    for(i = 0; i < skillsContent.lenght; i++) {
+        skillsContent[1].className = 'skills_content skills_close'
+    }
+    if(itemClass === 'skills_content skills_close') {
+        this.parentNode.className = 'skills_content skills_open'
+    }
+}
+
+skillsHeader.forEach((change) => {
+    change.addEventListener('click', changeSkills)
+})
