@@ -45,3 +45,13 @@ function changeSkills() {
 skillsHeader.forEach((change) => {
     change.addEventListener('click', changeSkills)
 })
+
+function arrowRotate() {
+//    skills_list = document.querySelector('skills_list')
+//     skills_list.style.display = 'block'
+
+
+teste = document.getElementById("teste").style.display = 'none'
+teste1 = document.getElementByClassName("teste1").style.display = 'none'
+
+}

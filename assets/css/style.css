@@ -349,9 +349,9 @@ img{
     font-weight: var(--font-medium);
 }
 
-.skills_close, .skills_list { /*essa porra aqui nao ta aparecendo, ajeitar*/
+.skills_list { /*essa porra aqui nao ta aparecendo, ajeitar*/
     height: 0;
-    overflow: hidden;
+    display: block;
 }
 
 .skills_open, .skills_list {
@@ -360,7 +360,7 @@ img{
 }
 
 .skills_arrow {
-    transform: rotate(-180deg);
+    transform: rotate();
 }
 
 
