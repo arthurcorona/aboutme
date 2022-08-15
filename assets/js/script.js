@@ -46,12 +46,16 @@ skillsHeader.forEach((change) => {
     change.addEventListener('click', changeSkills)
 })
 
-function arrowRotate() {
-//    skills_list = document.querySelector('skills_list')
-//     skills_list.style.display = 'block'
+function backendList() {
 
+backendListDisplay = document.getElementById("backend_list").style.display = 'none'
+backendRotation = document.getElementById("arrow_backend").style.transform = 'rotate(180deg)'
 
-teste = document.getElementById("teste").style.display = 'none'
-teste1 = document.getElementByClassName("teste1").style.display = 'none'
+}
+
+function designList() {
+
+designListDisplay = document.getElementById("design_list").style.display = 'none'
+designRotation = document.getElementById("arrow_design").style.transform = 'rotate(180deg)'
 
 }
