@@ -159,7 +159,7 @@
             <div class="skills_container container grid">
                 <div>
                     <div class="skills_content skills_open"> <!-- Frontend Skills -->
-                        <div class="skills_header">
+                        <div onclick="frontendList()" class="skills_header">
                             <i class="uil uil-brackets-curly skills_icon"></i>
 
                             <div>
@@ -167,10 +167,10 @@
                                 <span class="skills_subtitle"><!-- tempo de atuação, colocarei apenas mais para frente--></span>
                             </div>
 
-                            <i class="uil uil-angle-down skills_arrow"></i>
+                            <i id="arrow_frontend" class="uil uil-angle-down skills_arrow"></i>
                         </div>
 
-                        <div class="skills_list grid">
+                        <div id="frontend_list" class="skills_list grid">
                             <div class="skills_data">
                                <div class="skills_title">
                                 <h3 class="skills_name">HTML</h3>
@@ -192,7 +192,7 @@
                     </div>
 
                         <div class="skills_content skills_close"> <!--Backend-->
-                            <div class="skills_header">
+                            <div onclick="backendList()" class="skills_header">
                                 <i class="uil uil-server-network-alt skills_icon"></i>
     
                                 <div>
@@ -200,10 +200,10 @@
                                     <span class="skills_subtitle"><!-- tempo de atuação, colocarei apenas mais para frente--></span>
                                 </div>
     
-                                <i onclick="backendList()" class="uil uil-angle-down skills_arrow"></i>
+                                <i id="arrow_backend" class="uil uil-angle-down skills_arrow"></i>
                             </div>
     
-                            <div class="skills_list grid">
+                            <div id="backend_list" class="skills_list grid">
                                 <div class="skills_data">
                                    <div class="skills_title">
                                     <h3 class="skills_name">Node.js</h3>
@@ -220,7 +220,7 @@
                         </div>
 
                         <div class="skills_content skills_close"> <!--Design-->
-                            <div class="skills_header">
+                            <div onclick="designList()" class="skills_header">
                                 <i class="uil uil-image-edit skills_icon"></i>
     
                                 <div>
@@ -228,7 +228,8 @@
                                     <span class="skills_subtitle"><!-- tempo de atuação, colocarei apenas mais para frente--></span>
                                 </div>
     
-                                <i onclick="designList()" id="arrow_design" class="uil uil-angle-down skills_arrow"></i>
+                                <i id="arrow_design" class="uil uil-angle-down skills_arrow"></i>
+
                             </div>
     
                             <div id="design_list" class="skills_list grid">

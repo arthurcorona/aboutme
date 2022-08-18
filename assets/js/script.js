@@ -46,16 +46,34 @@ skillsHeader.forEach((change) => {
     change.addEventListener('click', changeSkills)
 })
 
+
+
+//showing skills list of front, back and design
+
+function frontendList() {
+    if(document.getElementById("frontend_list").style.display == 'none') {
+        frontendListDisplay = document.getElementById("frontend_list").style.display = 'block'
+    }
+    else{
+        frontendListDisplay = document.getElementById("frontend_list").style.display = 'none'
+    }
+}
+
 function backendList() {
-
-backendListDisplay = document.getElementById("backend_list").style.display = 'none'
-backendRotation = document.getElementById("arrow_backend").style.transform = 'rotate(180deg)'
-
+    if(document.getElementById("backend_list").style.display == 'none') {
+        backendListDisplay = document.getElementById("backend_list").style.display = 'block'
+    }
+    else{
+        backendListDisplay = document.getElementById("backend_list").style.display = 'none'
+    }
 }
 
 function designList() {
-
-designListDisplay = document.getElementById("design_list").style.display = 'none'
-designRotation = document.getElementById("arrow_design").style.transform = 'rotate(180deg)'
-
+    if(document.getElementById("design_list").style.display == 'none') {
+        designListDisplay = document.getElementById("design_list").style.display = 'block'
+    }
+    else {
+        designListDisplay = document.getElementById("design_list").style.display = 'none'
+    }
 }
+

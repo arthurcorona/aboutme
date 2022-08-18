@@ -354,15 +354,14 @@ img{
     display: block;
 }
 
+#frontend_list, #backend_list, #design_list {
+    display: none;
+}
+
 .skills_open, .skills_list {
     height: max-content;
     margin-bottom: var(--mb-2-5);
 }
-
-.skills_arrow {
-    transform: rotate();
-}
-
 
 :root {
     --header-height: 3rem;
