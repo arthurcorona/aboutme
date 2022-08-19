@@ -363,6 +363,18 @@ img{
     margin-bottom: var(--mb-2-5);
 }
 
+/* qualifications */
+
+.qualifications_tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+}
+
+.qualification_button {
+    
+}
+
 :root {
     --header-height: 3rem;
 
