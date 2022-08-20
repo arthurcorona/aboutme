@@ -365,14 +365,46 @@ img{
 
 /* qualifications */
 
+.qualification_data {
+    margin-bottom: var(--mb-1);
+}
+
 .qualifications_tabs {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2);
 }
 
-.qualification_button {
-    
+.qualifications_button {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    font-style: italic;
+    cursor: pointer;
+    margin-bottom: var(--mb-0-75);
+}
+
+.qualifications_button:hover {
+    color: var(--first-color);
+}
+
+.qualifications_icon {
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+.qualification_title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.qualification_subtitle {
+    display: inline-block;
+    font-size: var(--small-font-size);
+}
+
+.qualification_calendar {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
 }
 
 :root {
