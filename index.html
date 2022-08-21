@@ -7,6 +7,7 @@
     <link href="./assets/css/style.css" type="text/css" rel="stylesheet"> 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!-- icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> <!-- more icons -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">  <!--swiper css-->
 
     <title>About Me</title>
 </head>
@@ -371,25 +372,26 @@
         <section id="portifolio" class="portifolio section">
             <h2 class="section_title">Portifólio</h2>
             <span class="section_subtitle">Mais recentes:</span>
-            <div class="portifolio_content container">
-                <div>
 
-                    <div class="portifolio_content grid">
-                        <img src="" alt="" class="portifolio_img"></img>
+            <div class="portifolio_container container swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="portifolio_content grid swiper-slide">
+                        <img src="./assets/images/website_turismo.png" alt="" class="portifolio_img"></img>
                         <div class="portifolio_data">
                             <h3 class="portifolio_title">Website</h3>
                             <p class="portifolio_description">
                                 Um website feito para uma agência de turismo
                             </p>
-                            <a href="" class="button button-flex button-small portifolio_button">
+                            <a href="https://arthurcorona.github.io/website-turismo/" class="button button-flex button-small portifolio_button">
                                 Demo
                                 <i class="uil uil-arrow-right button_icon"></i>
                             </a>
                         </div>
                     </div>
 
-                    <div class="´portifolio_content grid">
-                        <img src="" alt="" class="portifolio_img"></img>
+                    <div class="portifolio_content grid swiper-slide">
+                        <img src="./assets/images/temp_converter.png" alt="" class="portifolio_img"></img>
                         <div class="portifolio_data">
                             <h3 class="portifolio_title">"Temp Converter"</h3>
                             <p class="portifolio_description">
@@ -402,8 +404,8 @@
                         </div>
                     </div>
 
-                    <div class="´portifolio_content grid">
-                        <img src="" alt="" class="portifolio_img"></img>
+                    <div class="portifolio_content grid swiper-slide">
+                        <img src="./assets/images/churra_simulator.png" alt="" class="portifolio_img"></img>
                         <div class="portifolio_data">
                             <h3 class="portifolio_title">"Churras Simulator"</h3>
                             <p class="portifolio_description">
@@ -416,8 +418,8 @@
                         </div>
                     </div>
 
-                    <div class="´portifolio_content grid">
-                        <img src="" alt="" class="portifolio_img"></img>
+                    <div class="portifolio_content grid swiper-slide">
+                        <img src="./assets/images/jogo_da_velha.png" alt="" class="portifolio_img"></img>
                         <div class="portifolio_data">
                             <h3 class="portifolio_title">Jogo da Velha</h3>
                             <p class="portifolio_description">
@@ -429,14 +431,25 @@
                             </a>
                         </div>
                     </div>
-
-
                 </div>
-            </div>
+            
+                            <!-- add arrows/ pagination SWIPER OBS: se eu colocar os slides do swiper -->
+                        <!--                 
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            
+                            <div class="swiper-pagination"></div> -->
 
+            </div>
         </section>
+
+        <section class="project section">
+            <div></div>
+        </section>
+
     </main>
 
+    <!-- <script src="./assets/js/swiper-bundle.min.js"></script> -->
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

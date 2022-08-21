@@ -33,6 +33,7 @@ a{
 img{
     max-width: 100%;
     height: auto;
+    margin-top: var(--mb-1);
 }
 
 .section{
@@ -408,6 +409,34 @@ img{
 }
 
 /* portifolio */
+
+.portifolio_container {
+    overflow: initial;
+}
+
+.portifolio_content {
+    padding: 0 1.5rem;
+}
+
+.portifolio_img {
+    width: 265px;
+    border-radius: .5rem;
+    justify-self: center;
+}
+
+.portifolio_title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+
+.portifolio_description {
+    margin-bottom: var(--mb-0-75);
+}
+
+.portifolio_button:hover .button_icon{
+    transform: translateX(.25rem);
+    margin-bottom: var(--mb-0-5);
+}
 
 
 
