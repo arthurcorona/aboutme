@@ -476,7 +476,41 @@ img{
     justify-self: center;
 } */
 
+/* feedback */
 
+.feedback_data, .feedback_header {
+    display: flex;
+}
+
+.feedback_data {
+    justify-content: space-between;
+    margin-bottom: var(--mb-1);
+}
+
+.feedback_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: var(--mb-0-75);
+}
+
+.feedback_name {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.feedback_client {
+    font-size: var(--small-font-size);
+    color: var(--first-color-light);
+}
+
+.feedback_description {
+    margin-bottom: var(--mb-2-5);
+}
+
+.feedback_icon-star {
+    color: var(--first-color);
+}
 
 
 
