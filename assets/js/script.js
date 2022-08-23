@@ -1,7 +1,7 @@
 //nav menu
 const navMenu = document.getElementById('nav-menu')
 const navToggle = document.getElementById('nav-toggle')
-const navClose = document.getElementById('navClose')
+const navClose = document.getElementById('nav-close')
 
 
 if(navToggle) {

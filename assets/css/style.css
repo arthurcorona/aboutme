@@ -969,6 +969,10 @@ img{
         width: 320px;
     }
 
+    .path{
+        width: 600;
+    }
+
     .home_social {
         transform: translateX(-6rem);
     }
