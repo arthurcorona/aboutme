@@ -16,10 +16,7 @@
     <header .class="header" id="header">
         <nav class="nav container">
             <a class="nav_logo" href="#">Arthur Corona</a>
-                   <!-- Mudar Tema
-
-                   <i class="uil uil-moon change-theme" id="theme-button"></i> -->
-
+        
                 <div class="nav_menu" id="nav-menu">
                     <ul class="nav_list grid">
                         <li class="nav_item">
@@ -50,18 +47,33 @@
                     </ul>
                     <i class="uil uil-times nav_close" id="nav-close"></i>
                 </div>
+ 
+                <!-- <div class="nav_btns">
 
-                <div class="nav_btns">
-
-                           <!-- Mudar Tema -->
+                           Mudar Tema
 
                            <i class="uil uil-moon change-theme" id="theme-button"></i>
 
                     <div class="nav_toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
+
+
+                    <i class="uil uil-sun"></i> sun
+
+                </div> -->
+    
+                <div class="nav_btns">
+
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+
+                    <i class="uil uil-moon change-theme" id="dark-theme"></i>
+
                 </div>
-        </nav>
+
+            </nav>
     </header>
     
     <main class="main">
@@ -112,11 +124,7 @@
                     </div>
                 </div>
                 <div class="home_scroll">
-                    <a href="#footer" class="home_scroll-button button-flex">
-                        <i class="uil uil-mouse home_scroll-mouse"></i>
-                        <span class="home_scroll-name">Scroll down </span>
-                        <i class="uil uil-arrow-down home_scroll-arrow"></i>
-                    </a>
+                    
                 </div>
             </div>
         </section>
@@ -126,16 +134,15 @@
             <h2 class="section_title">Sobre Mim</h2>
             <span class="section_subtitle">resumo</span>
             <div class="about_container container grid">
-                <img src="assets/img/profile.png" class="about_img">
+                <!-- <img src="assets/img/profile.png" class="about_img"> -->
 
                 <div class="about_data">
                     <p class="about_description"> Hoje sou dev. front-end, e atualmente estou estudando node.js, além do inglês. Tenho alguns projetos no meu github, e sempre busco melhorar. 
-                        Comecei estudar programação em 2018, porém parei e só retornei no final de 2021. E hoje sou apaixonado por isso, amo programar e tecnologias em geral.
+                        Comecei estudar programação em 2018, porém parei e só retornei no final de 2021. E hoje sou apaixonado por isso, amo programindex.htmlar e tecnologias em geral.
                         Estou buscando um emprego fixo como desenvolvedor, preferência por júnior, mas também estágio/trainee</p>
                     <div class="about_info">
                             <!-- <span class="about_info-title">01</span>
                             <span class="about_info-name">Anos <br>experiência  </span> -->
-                        
 
                         <div class="about_info">
                             <span class="about_info-title">10+</span>
@@ -148,7 +155,7 @@
                         </div> -->
                     </div>
                     <div class="about_buttons">
-                        <a download="" href="./assets/images/ARTHUR CORONA.pdf" class="button button-flex">
+                        <a download="" href="./assets/images/ARTHUR CORONA.pdf" class="button button-flex button-download">
                             Downlaod CV<i class="uil uil-download-alt button-icon"></i>
                         </a>
                     </div>
@@ -296,6 +303,16 @@
                                     2021 - Hoje
                                 </div>
                             </div> 
+
+                            <div class="qualification_data">
+                                <h3 class="qualification_title">Técnico Automação Industrial</h3>
+                                <span class="qualification_subtitle">CEDTEC</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019 - 2021
+                                </div>
+                            </div>  
+
                         </div>
 <!-- works -->
                 <br>
@@ -528,7 +545,7 @@
                         <i class="uil uil-map-marker contact_icon"></i>
                         
                         <div>
-                            <h3 class="contact_title">Location</h3>
+                            <h3 class="contact_title">Localização</h3>
                             <span class="contact_subtitle">Serra - ES</span>
                         </div>
         
@@ -536,33 +553,31 @@
                </div>
                 
                 <div>
-                    <form action="" class="contact_form grid">
-                        <div class="contact_inputs grid">
-                            <div class="contact_content">
-                                <label for="" class="contact_label">Nome</label>
-                                <input type="text" class="contect_input">
-                            </div>
-                            <div class="contact_content">
-                                <label for="" class="contact_label">Email</label>
-                                <input type="email" class="contect_input">
-                            </div>
-                        </div>
-                        <div class="contact_content">
-                            <label for="" class="contact_label">Projeto</label>
-                            <input type="text" class="contect_input">
-                        </div>
-                        <div class="contact_content">
-                            <label for="" class="contact_label">Mensagem</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
-                        </div>
+
+                    <a href="https://www.linkedin.com/in/arthur-corona-pimentel-32a155216/">
+                    <div class="contact_information">
+                        <i class="uil uil-linkedin contact_icon"></i>
                         
                         <div>
-                            <a href="" class="button button-flex">
-                                Enviar Mensagem
-                                <i class="uil uil-message button_icon"></i>
-                            </a>
+                            <h3 class="contact_title">Linkedin</h3>
+                            <span class="contact_subtitle"></span>
                         </div>
-                    </form>     
+        
+                    </div>
+                    </a>
+
+                    <a href="https://github.com/arthurcorona">
+                    <div class="contact_information">
+                        <i class="uil uil-github contact_icon"></i>
+                        
+                        <div>
+                            <h3 class="contact_title">Github</h3>
+                            <span class="contact_subtitle"></span>
+                        </div>
+        
+                    </div>
+                    </a>
+                
                 </div>  
            
             </div>
@@ -587,13 +602,13 @@
                     </ul>
 
                     <div class="footer_socials">
-                        <a href="" target="_blank" class="footer_social">
+                        <a href="https://www.instagram.com/arthurcorona_/?hl=pt-br" target="_blank" class="footer_social">
                             <i class="uil uil-instagram"></i>
                         </a>
-                        <a href="" target="_blank" class="footer_social">
+                        <a href="https://www.linkedin.com/in/arthur-corona-pimentel-32a155216/" target="_blank" class="footer_social">
                             <i class="uil uil-linkedin"></i>
                         </a>
-                        <a href="" target="_blank" class="footer_social">
+                        <a href="https://github.com/arthurcorona" target="_blank" class="footer_social">
                             <i class="uil uil-github"></i>
                         </a>
                     </div>
