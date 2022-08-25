@@ -134,17 +134,49 @@ function darkMode() {
     document.getElementById("dark-theme").style.display = 'none'
 
     document.querySelector("body").style.backgroundColor = '#1C1C1C'
-    document.querySelector("header").style.backgroundColor = "var(--first-color-second)"
+    document.querySelector("header").style.backgroundColor = "#FFF"
     document.getElementById("nav-menu").style.display = '#FFF'
     document.querySelector("body").style.color = '#FFF'
     document.querySelector("h1").style.color = '#FFF'
     document.querySelector("h2").style.color = '#FFF'
-
     document.getElementById("main").style.color = '#FFF'
 
-    //sad for this
+    document.getElementById("1").style.color = '#FFF'
+    document.getElementById("2").style.color = '#FFF'
+    document.getElementById("3").style.color = '#FFF'
+    document.getElementById("4").style.color = '#FFF'
+    document.getElementById("5").style.color = '#FFF'
+    document.getElementById("6").style.color = '#FFF'
+    document.getElementById("7").style.color = '#FFF'
+    document.getElementById("8").style.color = '#FFF'
+    document.getElementById("9").style.color = '#FFF'
+    document.getElementById("10").style.color = '#FFF'
+    document.getElementById("11").style.color = '#FFF'
+    document.getElementById("12").style.color = '#FFF'
+    document.getElementById("13").style.color = '#FFF'
+    document.getElementById("14").style.color = '#FFF'
+    document.getElementById("15").style.color = '#FFF'
+    document.getElementById("16").style.color = '#FFF'
+    document.getElementById("17").style.color = '#FFF'
+    document.getElementById("18").style.color = '#FFF'
+    document.getElementById("19").style.color = '#FFF'
+    document.getElementById("20").style.color = '#FFF'
+    document.getElementById("21").style.color = '#FFF'
+    document.getElementById("22").style.color = '#FFF'
 
-    document.getElementById("1").style.display = '#FFF'
+    
+
+    document.getElementById("23").style.color = '#FFF'
+    document.getElementById("24").style.color = '#FFF'
+    document.getElementById("25").style.color = '#FFF'
+    document.getElementById("26").style.color = '#FFF'
+    document.getElementById("27").style.color = '#FFF'
+
+
+
+
+
+
 
 
     // document.querySelector(".section_title").style.color = '#FFF'
