@@ -128,3 +128,29 @@ window.addEventListener('scroll', scrollUp)
 
 // dark theme
 
+function darkMode() {
+
+    document.getElementById("light-theme").style.display = 'block'
+    document.getElementById("dark-theme").style.display = 'none'
+
+    document.querySelector("body").style.backgroundColor = '#1C1C1C'
+    document.querySelector("header").style.backgroundColor = "var(--first-color-second)"
+    document.getElementById("nav-menu").style.display = '#FFF'
+    document.querySelector("body").style.color = '#FFF'
+    document.querySelector("h1").style.color = '#FFF'
+    document.querySelector("h2").style.color = '#FFF'
+
+    document.getElementById("main").style.color = '#FFF'
+
+    //sad for this
+
+    document.getElementById("1").style.display = '#FFF'
+
+
+    // document.querySelector(".section_title").style.color = '#FFF'
+    // document.getElementById("test").style.color = '#FFF'
+
+
+}
+
+

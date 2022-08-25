@@ -11,57 +11,42 @@
 
     <title>About Me</title>
 </head>
-<body>
+<body id="">
     <!-- header -->
-    <header .class="header" id="header">
+    <header class="header" id="header">
         <nav class="nav container">
             <a class="nav_logo" href="#">Arthur Corona</a>
         
                 <div class="nav_menu" id="nav-menu">
-                    <ul class="nav_list grid">
+                    <ul class="nav_list grid ">
                         <li class="nav_item">
                             <a class="nav_link" href="#home" active-link>
                                 <i class="uil uil-home nav_icon"></i> Home
                             </a>
                         </li>
                         <li class="nav_item">
-                            <a class="nav_link" href="#aboutme">
+                            <a class="nav_link " href="#aboutme">
                                 <i class="uil uil-user nav_icon"></i> Sobre Mim 
                             </a>
                         </li>
                         <li class="nav_item">
-                            <a class="nav_link" href="#skills">
+                            <a class="nav_link " href="#skills">
                                 <i class="uil uil-file nav_icon"></i> Habilidades 
                             </a>
                         </li>
                         <li class="nav_item">
-                            <a class="nav_link" href="#portifolio">
+                            <a class="nav_link " href="#portifolio">
                                 <i class="uil uil-scenery nav_icon"></i> Portifólio
                             </a>
                         </li>
                         <li class="nav_item">
-                            <a class="nav_link" href="#contact">
+                            <a class="nav_link " href="#contact">
                                 <i class="uil uil-message nav_icon"></i> Contate-me
                             </a>
                         </li>
                     </ul>
                     <i class="uil uil-times nav_close" id="nav-close"></i>
                 </div>
- 
-                <!-- <div class="nav_btns">
-
-                           Mudar Tema
-
-                           <i class="uil uil-moon change-theme" id="theme-button"></i>
-
-                    <div class="nav_toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-
-
-                    <i class="uil uil-sun"></i> sun
-
-                </div> -->
     
                 <div class="nav_btns">
 
@@ -69,14 +54,16 @@
                         <i class="uil uil-apps"></i>
                     </div>
 
-                    <i class="uil uil-moon change-theme" id="dark-theme"></i>
+                    <i onclick="darkMode()" class="uil uil-moon change-theme" id="dark-theme"></i>
+
+                    <i onclick="lightMode()" class="uil uil-sun change-theme" id="light-theme"></i>
 
                 </div>
 
             </nav>
     </header>
     
-    <main class="main">
+    <main class="main" id="main">
         <!-- home -->
         <section class="home section" id="home">
             <div class="home_conteiner container grid">
@@ -117,7 +104,7 @@
                     <div class="home_data">
                         <h1 class="home_title">Hello World, Eu sou o Arthur Corona</h1>
                         <h3 class="home_subtitle">Desenvolvedor Front-end</h3>
-                        <p class="home_description">Acho que ainda é muito pouco, mas dá para me conhecer um pouquinho aqui.</p>
+                        <p class="home_description">Estou fazendo alguns freelas, e estou querendo trabalhar como um desenvolvedor. Gosto demais de fazer isso.</p>
                         <a href="#contact" class="button button-flex">
                            Contato<i class="uil uil-message button_icon"></i>
                         </a>
@@ -145,7 +132,7 @@
                             <span class="about_info-name">Anos <br>experiência  </span> -->
 
                         <div class="about_info">
-                            <span class="about_info-title">10+</span>
+                            <span class="about_info-title" id="test">10+</span>
                             <span class="about_info-name"> Projetos<br> Criados</span>
                         </div>
 <!-- 
@@ -629,10 +616,6 @@
 
             </div>
         </footer>
-
-        <a href="#aboutme" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup_icon"></i>
-        </a>
 
     </main>
 
