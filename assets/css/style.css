@@ -887,6 +887,16 @@ img{
         margin-left: 3rem;
     }
 
+    .home_svg {
+        width: 350px;
+        fill: var(--first-color);
+    }
+    
+    .home_svg-img {
+        width: 170px;
+    }
+    
+
     .qualification_tabs {
         justify-content: center;
     }
