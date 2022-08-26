@@ -142,6 +142,7 @@ function darkMode() {
     document.getElementById("main").style.color = '#FFF'
     document.querySelector("h3").style.color = '#FFF'
 
+
     document.getElementById("1").style.color = '#FFF'
     document.getElementById("2").style.color = '#FFF'
     document.getElementById("3").style.color = '#FFF'
@@ -171,13 +172,6 @@ function darkMode() {
     document.getElementById("25").style.color = '#FFF'
     document.getElementById("26").style.color = '#FFF'
     document.getElementById("27").style.color = '#FFF'
-
-
-
-
-
-
-
 
     // document.querySelector(".section_title").style.color = '#FFF'
     // document.getElementById("test").style.color = '#FFF'
@@ -216,5 +210,6 @@ function lightMode() {
     document.getElementById("20").style.color = 'rgb(109, 106, 124)'
     document.getElementById("21").style.color = 'rgb(109, 106, 124)'
     document.getElementById("22").style.color = 'rgb(109, 106, 124)'
+
 }
 

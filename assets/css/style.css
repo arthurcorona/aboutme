@@ -358,11 +358,16 @@ img{
 
 .skills_title{
     font-size: var(--h3-font-size);
+    color: hsl(var(--hue-color), 73%, 42%);
+}
+
+.skills_name {
+color: hsl(var(--hue-color), 73%, 42%);
 }
 
 .skills_subtitle{
     font-size: var(--small-font-size);
-    color: var(--text-color-light);
+    color: hsl(var(--hue-color), 73%, 42%);
 }
 
 .skills_arrow {
@@ -791,6 +796,14 @@ img{
 
     .skills_container, .about_container, .portifolio_content {
         
+    }
+
+    #dark-theme {
+        margin-left: var(--mb-0-25);
+    }
+
+    #light-theme {
+        margin-left: var(--mb-0-25);
     }
 
 }
