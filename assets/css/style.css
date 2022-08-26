@@ -386,7 +386,7 @@ img{
     font-weight: var(--font-medium);
 }
 
-.skills_list { /*essa porra aqui nao ta aparecendo, ajeitar*/
+.skills_list {
     height: 0;
     display: block;
 }

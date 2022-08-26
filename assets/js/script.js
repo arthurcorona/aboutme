@@ -140,6 +140,7 @@ function darkMode() {
     document.querySelector("h1").style.color = '#FFF'
     document.querySelector("h2").style.color = '#FFF'
     document.getElementById("main").style.color = '#FFF'
+    document.querySelector("h3").style.color = '#FFF'
 
     document.getElementById("1").style.color = '#FFF'
     document.getElementById("2").style.color = '#FFF'
@@ -164,7 +165,6 @@ function darkMode() {
     document.getElementById("21").style.color = '#FFF'
     document.getElementById("22").style.color = '#FFF'
 
-    
 
     document.getElementById("23").style.color = '#FFF'
     document.getElementById("24").style.color = '#FFF'
@@ -182,7 +182,39 @@ function darkMode() {
     // document.querySelector(".section_title").style.color = '#FFF'
     // document.getElementById("test").style.color = '#FFF'
 
-
 }
 
+function lightMode() {
+    document.getElementById("light-theme").style.display = 'none'
+    document.getElementById("dark-theme").style.display = 'block'
+
+    document.querySelector("body").style.backgroundColor = 'var(--body-color)'
+    document.querySelector("body").style.color = 'rgb(109, 106, 124)'
+    document.querySelector("h1").style.color = 'rgb(109, 106, 124)'
+    document.querySelector("h2").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("main").style.color = 'rgb(109, 106, 124)'
+    document.querySelector("h3").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("1").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("2").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("3").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("4").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("5").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("6").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("7").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("8").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("9").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("10").style.color = 'rgb(109, 106, 124) '
+    document.getElementById("11").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("12").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("13").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("14").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("15").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("16").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("17").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("18").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("19").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("20").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("21").style.color = 'rgb(109, 106, 124)'
+    document.getElementById("22").style.color = 'rgb(109, 106, 124)'
+}
 
