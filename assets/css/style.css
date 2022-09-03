@@ -414,7 +414,7 @@ color: hsl(var(--hue-color), 73%, 42%);
     color: #FFF;
 }
 
-.skills_name {
+.skills_name-dark-theme {
 color: #FFF
 }
 
@@ -423,7 +423,10 @@ color: #FFF
     transition: .4s;
 }
 
-
+#dark-theme-skills {
+    display: none;
+    /* colocar ele no block quando pedir e o light theme no none quando vice versa */
+}
 
 #frontend_list-dark, #backend_list-dark, #design_list-dark {
     display: none;
