@@ -400,6 +400,11 @@ color: hsl(var(--hue-color), 73%, 42%);
 
 /* dark-theme skills */
 
+
+
+
+
+
 .skills_icon-dark-theme, .skills_arrow-dark-theme{
     font-size: var(--mb-2-5);
     color: #FFF;
@@ -423,9 +428,8 @@ color: #FFF
     transition: .4s;
 }
 
-#dark-theme-skills {
+ #dark-theme-skills {
     display: none;
-    /* colocar ele no block quando pedir e o light theme no none quando vice versa */
 }
 
 #frontend_list-dark, #backend_list-dark, #design_list-dark {
@@ -435,6 +439,11 @@ color: #FFF
 .skills_open, .skills_list {
     height: max-content;
     margin-bottom: var(--mb-2-5);
+}
+
+.skills_open{
+    height: max-content;
+    margin-bottom: var(--mb-2-5)
 }
 
 /* qualifications */
@@ -823,11 +832,15 @@ color: #FFF
     .qualification_section {
         display: inline;
         grid-template-columns: 6fr;
-        justify-content: center;
     }
 
     .skills_container, .about_container, .portifolio_content {
         
+    }
+
+    .skills_content-dark-theme{
+        width: 60%;
+       margin: auto;
     }
 
     #dark-theme {

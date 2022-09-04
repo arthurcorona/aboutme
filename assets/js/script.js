@@ -77,6 +77,33 @@ function designList() {
     }
 }
 
+function frontendListDark() {
+    if(document.getElementById("frontend_list-dark").style.display == 'none') {
+        frontendListDisplay = document.getElementById("frontend_list-dark").style.display = 'block'
+    }
+    else{
+        frontendListDisplay = document.getElementById("frontend_list-dark").style.display = 'none'
+    }
+}
+
+function backendListDark() {
+    if(document.getElementById("backend_list-dark").style.display == 'none') {
+        backendListDisplay = document.getElementById("backend_list-dark").style.display = 'block'
+    }
+    else{
+        backendListDisplay = document.getElementById("backend_list-dark").style.display = 'none'
+    }
+}
+
+function designListDark() {
+    if(document.getElementById("design_list-dark").style.display == 'none') {
+        designListDisplay = document.getElementById("design_list-dark").style.display = 'block'
+    }
+    else {
+        designListDisplay = document.getElementById("design_list-dark").style.display = 'none'
+    }
+}
+
 // var swiper = new Swiper('.portifolio_container', {
 //     cssMode: true,
 //     navigation: {
@@ -130,9 +157,10 @@ window.addEventListener('scroll', scrollUp)
 
 function darkMode() {
 
+    document.getElementById("dark-theme-skills").style.display = 'block'
+    document.getElementById("light-theme-skills").style.display = 'none'
     document.getElementById("light-theme").style.display = 'block'
     document.getElementById("dark-theme").style.display = 'none'
-
     document.querySelector("body").style.backgroundColor = '#1C1C1C'
     document.querySelector("header").style.backgroundColor = "#FFF"
     document.getElementById("nav-menu").style.display = '#FFF'
@@ -141,8 +169,6 @@ function darkMode() {
     document.querySelector("h2").style.color = '#FFF'
     document.getElementById("main").style.color = '#FFF'
     document.querySelector("h3").style.color = '#FFF'
-
-
     document.getElementById("1").style.color = '#FFF'
     document.getElementById("2").style.color = '#FFF'
     document.getElementById("3").style.color = '#FFF'
@@ -165,23 +191,20 @@ function darkMode() {
     document.getElementById("20").style.color = '#FFF'
     document.getElementById("21").style.color = '#FFF'
     document.getElementById("22").style.color = '#FFF'
-
-
     document.getElementById("23").style.color = '#FFF'
     document.getElementById("24").style.color = '#FFF'
     document.getElementById("25").style.color = '#FFF'
     document.getElementById("26").style.color = '#FFF'
     document.getElementById("27").style.color = '#FFF'
-
     // document.querySelector(".section_title").style.color = '#FFF'
     // document.getElementById("test").style.color = '#FFF'
-
 }
 
 function lightMode() {
+    document.getElementById("dark-theme-skills").style.display = 'none'
+    document.getElementById("light-theme-skills").style.display = 'block'
     document.getElementById("light-theme").style.display = 'none'
     document.getElementById("dark-theme").style.display = 'block'
-
     document.querySelector("body").style.backgroundColor = 'var(--body-color)'
     document.querySelector("body").style.color = 'rgb(109, 106, 124)'
     document.querySelector("h1").style.color = 'rgb(109, 106, 124)'
@@ -210,6 +233,5 @@ function lightMode() {
     document.getElementById("20").style.color = 'rgb(109, 106, 124)'
     document.getElementById("21").style.color = 'rgb(109, 106, 124)'
     document.getElementById("22").style.color = 'rgb(109, 106, 124)'
-
 }
 
