@@ -490,6 +490,57 @@ color: #FFF
     color: var(--text-color-light);
 }
 
+/* qualification dark mode */
+
+#informatica-light {
+    display: block;
+}
+
+#informatica-dark{
+    display: none;
+    color: #FFF;
+}
+
+#fullstack-light {
+    display: block;
+}
+
+#fullstack-dark{
+    display: none;
+    color: #FFF;
+}
+
+#tecnico-light {
+    display: block;
+}
+
+#tecnico-dark {
+    display: none;
+    color: #FFF;
+}
+
+#estagio-light {
+    display: block;
+}
+
+#estagio-dark {
+    display: none;
+    color: #FFF;
+}
+
+#freelance1-light {
+    display: block;
+}
+
+#freelance1-dark {
+    display: none;
+    color: #FFF;
+}
+
+
+
+
+
 /* portifolio */
 
 .portifolio_container {
