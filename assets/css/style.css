@@ -586,6 +586,26 @@ color: #FFF
     color: var(--first-color);
 }
 
+/* feedback dark mode */
+
+#feedback-light {
+    display: block;
+}
+
+#feedback-dark {
+    display: none;
+    color: #FFF;
+}
+
+#client1-light {
+    display: block;
+}   
+
+#client1-dark {
+    display: none;
+    color: #FFF;
+}
+
 /* contact me */
 
 .contact_container {
@@ -633,6 +653,63 @@ color: #FFF
     border: none;
     outline: none;
     padding: .25rem 5rem 5rem 0;
+}
+
+/* contact me dark mode */
+
+#contact-light {
+    display: block;
+}
+
+#contact-dark{
+    display: none;
+    color: #FFF;
+}
+
+#callme-light {
+    display: block;
+}
+
+#callme-dark {
+    display: none;
+    color: #FFF;
+}
+
+
+#email-light {
+    display: block;
+}
+
+#email-dark {
+    display: none;
+    color: #FFF;
+}
+
+#local-light {
+    display: block;
+}
+
+#local-dark {
+    display: none;
+    color: #FFF;
+}
+
+#github-light {
+    display: block;
+}
+
+#github-dark {
+    display: none;
+    color: #FFF;
+}
+
+#linkedin-light {
+    display: block;
+}
+
+#linkedin-dark {
+    display: none;
+    color: #FFF;
 }
 
 /* footer */
