@@ -501,6 +501,15 @@ color: #FFF
     color: #FFF;
 }
 
+#ingles-light {
+    display: block;
+}
+
+#ingles-dark{
+    display: none;
+    color: #FFF;
+}
+
 #fullstack-light {
     display: block;
 }

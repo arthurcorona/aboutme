@@ -182,6 +182,8 @@ function darkMode() {
     document.getElementById("github-dark").style.display = 'block'
     document.getElementById("informatica-light").style.display = 'none'
     document.getElementById("informatica-dark").style.display = 'block'
+    document.getElementById("ingles-light").style.display = 'none'
+    document.getElementById("ingles-dark").style.display = 'block'
     document.getElementById("fullstack-light").style.display = 'none'
     document.getElementById("fullstack-dark").style.display = 'block'
     document.getElementById("tecnico-light").style.display = 'none'
@@ -203,9 +205,6 @@ function darkMode() {
     document.getElementById("3").style.color = '#FFF'
     document.getElementById("4").style.color = '#FFF'
     document.getElementById("5").style.color = '#FFF'
-    document.getElementById("6").style.color = '#FFF'
-    document.getElementById("7").style.color = '#FFF'
-    document.getElementById("8").style.color = '#FFF'
     document.getElementById("9").style.color = '#FFF'
     document.getElementById("10").style.color = '#FFF'
     document.getElementById("11").style.color = '#FFF'
@@ -227,6 +226,8 @@ function darkMode() {
     document.getElementById("27").style.color = '#FFF'
     document.querySelector(".section_title").style.color = '#FFF'
     // document.getElementById("test").style.color = '#FFF'
+    document.getElementById("28").style.color = '#FFF'
+    document.getElementById("29").style.color = '#FFF'
 }
 
 function lightMode() {
@@ -252,6 +253,8 @@ function lightMode() {
     document.getElementById("github-dark").style.display = 'none'
     document.getElementById("informatica-light").style.display = 'block'
     document.getElementById("informatica-dark").style.display = 'none'
+    document.getElementById("ingles-light").style.display = 'block'
+    document.getElementById("ingles-dark").style.display = 'none'
     document.getElementById("fullstack-light").style.display = 'block'
     document.getElementById("fullstack-dark").style.display = 'none'
     document.getElementById("estagio-light").style.display = 'block'
@@ -286,5 +289,7 @@ function lightMode() {
     document.getElementById("20").style.color = 'rgb(109, 106, 124)'
     document.getElementById("21").style.color = 'rgb(109, 106, 124)'
     document.getElementById("22").style.color = 'rgb(109, 106, 124)'
+
+
 }
 
