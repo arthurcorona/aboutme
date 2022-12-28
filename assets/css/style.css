@@ -665,6 +665,14 @@ color: #FFF
     display: none;
     color: #FFF;
 }
+#client2-light{
+    display: block;
+}
+
+#client2-dark {
+    display: none;
+    color: #FFF;
+}
 
 /* contact me */
 
